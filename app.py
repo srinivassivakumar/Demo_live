@@ -20,7 +20,7 @@ cors = CORS(app)
 @app.route("/",methods=["GET","POST"])
 @cross_origin(origins="*")
 def listofnumbers():
-
+    pass
 
 
 
